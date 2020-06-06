@@ -62,3 +62,6 @@ print(user.check_password('1234'))
 
 user.username = 'Jonathan'
 print(user.username)
+
+if __name__ == '__main__':
+    main()
