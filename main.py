@@ -49,19 +49,8 @@ class User:
         else:
             self._username = username
 
-user = User('John', 'password', 'john@some.come', '12/25/1999')
-print(user.username)
-print(user.password)
-print(user)
-print()
-print(repr(user))
-
-user2 = User("John", "password", "john@some.come", "12/25/1999")
-print(user == user2)
-print(user.check_password('1234'))
-
-user.username = 'Jonathan'
-print(user.username)
+def main():
+    print('ran main.User')
 
 if __name__ == '__main__':
     main()
