@@ -15,8 +15,5 @@ class SuperUser(User):
     def __str__(self):
         return super().__str__() + f"\nRole: {self.role}"
 
-def main():
-    print('ran superuser.SuperUser')
-
 if __name__ == '__main__':
-    main()
+    pass

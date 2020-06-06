@@ -49,8 +49,5 @@ class User:
         else:
             self._username = username
 
-def main():
-    print('ran main.User')
-
 if __name__ == '__main__':
-    main()
+    pass
